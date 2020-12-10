@@ -1,19 +1,21 @@
-import {BrowserRouter, Router, Switch} from 'react-router-dom'
+import { BrowserRouter, Route, Switch} from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
 import SinglePost from './components/SinglePost'
 import Post from './components/Post'
 import Project from './components/Project'
+import Navbar from './components/NavBar'
 
 function App() {
   return (
       <BrowserRouter>
+      <Navbar />
         <Switch>
-            <Router component={Home} path='/' exact />
-            <Router component={About} path='/about' />
-            <Router component={SinglePost} path='/post/:slug' />
-            <Router component={Post} path='/post' />
-            <Router component={Project} path='/project' />
+            <Route component={Home} path='/' exact />
+            <Route component={About} path='/about' />
+            <Route component={SinglePost} path='/post/:slug' />
+            <Route component={Post} path='/post' />
+            <Route component={Project} path='/project' />
         </Switch>
       </BrowserRouter>
   )
