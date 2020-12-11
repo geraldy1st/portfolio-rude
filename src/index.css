@@ -1,9 +1,17 @@
 @import url('https://unpkg.com/@tailwindcss/typography@2.0.x/dist/typography.min.css');
 @import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap');
 
 .cursive {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Press Start 2P', cursive;
+}
+.navbar-home {
+  font-size: 1em;
+  display: flex;
+}
+.text-shadow {
+  text-shadow: 2px 2px 7px #000;
 }
 .prose img {
   margin-left: auto;
