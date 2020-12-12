@@ -46,7 +46,7 @@ export default function NavBar() {
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
-            url="https://www.instagram.com/generald/"
+            url="https://www.linkedin.com/in/geraldy-leondas-35265279/"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
