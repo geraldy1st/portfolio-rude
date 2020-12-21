@@ -45,7 +45,7 @@ export default function Project() {
                 <div className="text-gray-500 text-xs space-x-4">
                   <span>
                     <strong className="font-bold">Finished on</strong>:{' '}
-                    {new Date(project.data).toLocaleDateString()}
+                    {new Date(project.date).toLocaleDateString()}
                   </span>
                   <span>
                     <strong className="font-bold">Company</strong>:{' '}
