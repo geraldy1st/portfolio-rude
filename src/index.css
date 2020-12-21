@@ -1,11 +1,15 @@
 @import url('https://unpkg.com/@tailwindcss/typography@2.0.x/dist/typography.min.css');
 @import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap');
 
 .cursive {
   font-family: 'Press Start 2P', cursive;
 }
+.raleway {
+  font-family: 'Raleway', sans-serif !important;
+}
+
 .navbar-home {
   font-size: 1em;
   display: flex;
